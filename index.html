@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Document</title>
+
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body>
+		<!-- heading section -->
+		<header class="heading">
+			<h3>Multiple Timers App</h3>
+		</header>
+
+		<!-- timer section -->
+		<section class="timers">
+			<div class="set">
+				<p>Set Time :</p>
+			</div>
+
+			<div class="time">
+				<input
+					type="number"
+					placeholder="HH"
+					min="0"
+					max="24"
+					id="hh"
+				/>
+				<p>:</p>
+				<input
+					type="number"
+					placeholder="MM"
+					min="0"
+					max="60"
+					id="mm"
+				/>
+				<p>:</p>
+				<input
+					type="number"
+					placeholder="SS"
+					min="0"
+					max="60"
+					id="ss"
+				/>
+			</div>
+
+			<button class="setTime" type="submit">Set</button>
+		</section>
+
+		<!-- second-section -->
+		<section class="second-section">
+			<button class="currentTimer" type="submit">Current Timers</button>
+		</section>
+
+		<!-- third section -->
+		<section class="third-section">
+			<h3>You have no timers currently!</h3>
+		</section>
+
+		<!-- fourth section -->
+		<section class="fourth">
+			<div class="added-timers">
+				<div class="timeLeft">
+					<p>Time Left:</p>
+				</div>
+
+				<div class="time">
+					<input type="number" placeholder="HH" min="0" max="24" />
+					<p>:</p>
+					<input type="number" placeholder="MM" min="0" max="60" />
+					<p>:</p>
+					<input type="number" placeholder="SS" min="0" max="60" />
+				</div>
+
+				<button class="deleteTime" type="submit">Delete</button>
+			</div>
+		</section>
+
+		<!-- fifth section -->
+		<section class="fifth">
+			<div class="timesUp">
+				<h3>Timer Is Up !</h3>
+				<button class="stopTimer">Stop</button>
+			</div>
+		</section>
+
+		<script src="./script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	background-color: #1d1d23;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+/* heading section */
+.heading {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.heading h3 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 42px;
+}
+
+/* timer section */
+.timers {
+	background-color: #34344a;
+	border-radius: 20px;
+	display: flex;
+	max-width: 700px;
+	height: 150px;
+	margin: auto;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 20px;
+}
+
+.timers .set p {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 28px;
+}
+
+.timers .time {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	width: 300px;
+}
+
+.timers .time input {
+	font-weight: 500;
+	text-align: center;
+	width: fit-content;
+	height: 30px;
+	border: none;
+	outline: none;
+	background: transparent;
+	color: white;
+	font-size: 24px;
+	text-decoration: underline;
+}
+
+.time p {
+	font-size: 20px;
+}
+
+.timers .setTime {
+	background-color: #f0f757;
+	/* padding: 8px 25px; */
+	width: 120px;
+	height: 45px;
+	border-radius: 26px;
+	color: #34344a;
+	font-size: 16px;
+	font-weight: 500;
+	border: none;
+	outline: none;
+}
+
+.setTime {
+	cursor: pointer;
+}
+
+::placeholder {
+	color: white;
+	opacity: 1;
+}
+
+/* second section */
+.second-section {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.currentTimer {
+	background-color: #39393e;
+	font-family: Roboto;
+	font-size: 17px;
+	font-weight: 500;
+	color: #ffffff;
+	padding: 15px 70px;
+	border-radius: 49px;
+	border: none;
+	outline: none;
+}
+
+/* third section */
+.third-section h3 {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 28px;
+}
+
+/* fourth section */
+.added-timers {
+	background-color: #34344a;
+	border-radius: 20px;
+	display: flex;
+	max-width: 700px;
+	height: 150px;
+	margin: auto;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.added-timers .timeLeft p {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 28px;
+}
+
+.added-timers .time {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	width: 300px;
+}
+
+.added-timers .time input {
+	font-weight: 500;
+	text-align: center;
+	width: fit-content;
+	height: 30px;
+	border: none;
+	outline: none;
+	background: transparent;
+	color: white;
+	font-size: 24px;
+}
+
+.time p {
+	font-size: 20px;
+}
+
+.added-timers .deleteTime {
+	background-color: #f0f757;
+	/* padding: 8px 25px; */
+	width: 120px;
+	height: 45px;
+	border-radius: 26px;
+	color: #34344a;
+	font-size: 16px;
+	font-weight: 500;
+	border: none;
+	outline: none;
+}
+
+.deleteTime {
+	cursor: pointer;
+}
+
+::placeholder {
+	color: white;
+	opacity: 1;
+}
+
+/* fifth section */
+
+.fifth .timesUp {
+	background-color: yellow;
+	width: 700px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 700px;
+	height: 150px;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.fifth .timesUp h3 {
+	color: #34344a;
+	font-family: Roboto;
+	font-size: 48px;
+	font-weight: 500;
+	line-height: 56px;
+	width: 70%;
+}
+
+.timesUp .stopTimer {
+	background-color: #34344a;
+	/* padding: 8px 25px; */
+	width: 120px;
+	height: 45px;
+	border-radius: 26px;
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	border: none;
+	outline: none;
+}
